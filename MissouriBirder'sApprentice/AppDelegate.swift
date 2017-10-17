@@ -3,7 +3,7 @@
 //  MissouriBirder'sApprentice
 //
 //  Created by Mucherla,Veera Kishon Kumar on 10/16/17.
-//  Copyright © 2017 Mucherla,Veera Kishon Kumar. All rights reserved.
+//  Copyright 2017 Mucherla,Veera Kishon Kumar. All rights reserved.
 //
 
 import UIKit
