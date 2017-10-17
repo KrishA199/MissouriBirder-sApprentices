@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9CA972A91F95789F006E748F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972A81F95789F006E748F /* AppDelegate.swift */; };
-		9CA972AB1F95789F006E748F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972AA1F95789F006E748F /* ViewController.swift */; };
 		9CA972AE1F95789F006E748F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA972AC1F95789F006E748F /* Main.storyboard */; };
 		9CA972B11F95789F006E748F /* MissouriBirder_sApprentice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972AF1F95789F006E748F /* MissouriBirder_sApprentice.xcdatamodeld */; };
 		9CA972B31F95789F006E748F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA972B21F95789F006E748F /* Assets.xcassets */; };
 		9CA972B61F95789F006E748F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA972B41F95789F006E748F /* LaunchScreen.storyboard */; };
+		9CA972C41F957E61006E748F /* CountyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972C31F957E61006E748F /* CountyTableViewController.swift */; };
+		9CA972C61F957E7D006E748F /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972C51F957E7D006E748F /* BirdsTableViewController.swift */; };
+		9CA972C81F957F69006E748F /* CountyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972C71F957F69006E748F /* CountyTableViewCell.swift */; };
+		9CA972D11F958C99006E748F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972D01F958C99006E748F /* DataSource.swift */; };
+		9CA972D31F9591C0006E748F /* BirdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972D21F9591C0006E748F /* BirdsTableViewCell.swift */; };
+		9CA972D51F959256006E748F /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA972D41F959256006E748F /* BirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CA972A51F95789F006E748F /* MissouriBirder'sApprentice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MissouriBirder'sApprentice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA972A81F95789F006E748F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CA972AA1F95789F006E748F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CA972AD1F95789F006E748F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CA972B01F95789F006E748F /* MissouriBirder_sApprentice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MissouriBirder_sApprentice.xcdatamodel; sourceTree = "<group>"; };
 		9CA972B21F95789F006E748F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA972B51F95789F006E748F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA972B71F95789F006E748F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA972C31F957E61006E748F /* CountyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewController.swift; sourceTree = "<group>"; };
+		9CA972C51F957E7D006E748F /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
+		9CA972C71F957F69006E748F /* CountyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewCell.swift; sourceTree = "<group>"; };
+		9CA972D01F958C99006E748F /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../../../Downloads/DataSource.swift; sourceTree = "<group>"; };
+		9CA972D21F9591C0006E748F /* BirdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewCell.swift; sourceTree = "<group>"; };
+		9CA972D41F959256006E748F /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				9CA972A81F95789F006E748F /* AppDelegate.swift */,
-				9CA972AA1F95789F006E748F /* ViewController.swift */,
+				9CA972D01F958C99006E748F /* DataSource.swift */,
+				9CA972C31F957E61006E748F /* CountyTableViewController.swift */,
+				9CA972C71F957F69006E748F /* CountyTableViewCell.swift */,
+				9CA972C51F957E7D006E748F /* BirdsTableViewController.swift */,
+				9CA972D21F9591C0006E748F /* BirdsTableViewCell.swift */,
+				9CA972D41F959256006E748F /* BirdViewController.swift */,
 				9CA972AC1F95789F006E748F /* Main.storyboard */,
 				9CA972B21F95789F006E748F /* Assets.xcassets */,
 				9CA972B41F95789F006E748F /* LaunchScreen.storyboard */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA972AB1F95789F006E748F /* ViewController.swift in Sources */,
+				9CA972C41F957E61006E748F /* CountyTableViewController.swift in Sources */,
+				9CA972D11F958C99006E748F /* DataSource.swift in Sources */,
+				9CA972C81F957F69006E748F /* CountyTableViewCell.swift in Sources */,
+				9CA972D51F959256006E748F /* BirdViewController.swift in Sources */,
 				9CA972A91F95789F006E748F /* AppDelegate.swift in Sources */,
+				9CA972D31F9591C0006E748F /* BirdsTableViewCell.swift in Sources */,
+				9CA972C61F957E7D006E748F /* BirdsTableViewController.swift in Sources */,
 				9CA972B11F95789F006E748F /* MissouriBirder_sApprentice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
